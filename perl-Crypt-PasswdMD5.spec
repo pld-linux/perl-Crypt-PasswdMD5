@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Crypt
 %define	pnam	PasswdMD5
-%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt-PasswdMD5 perl module
 Summary(pl):	Modu³ perla Crypt-PasswdMD5
 Name:		perl-Crypt-PasswdMD5
 Version:	1.2
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Crypt-PasswdMD5 perl module.
 Modu³ perla Crypt-PasswdMD5.
 
 %prep
-%setup -q -n Crypt-PasswdMD5-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL

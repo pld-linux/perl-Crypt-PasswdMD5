@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Crypt
 %define	pnam	PasswdMD5
-Summary:	Crypt-PasswdMD5 perl module
-Summary(pl):	Modu³ perla Crypt-PasswdMD5
+Summary:	Crypt::PasswdMD5 perl module
+Summary(pl):	Modu³ perla Crypt::PasswdMD5
 Name:		perl-Crypt-PasswdMD5
 Version:	1.2
 Release:	5
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Crypt-PasswdMD5 perl module.
+Crypt::PasswdMD5 perl module.
 
 %description -l pl
-Modu³ perla Crypt-PasswdMD5.
+Modu³ perla Crypt::PasswdMD5.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

@@ -2,7 +2,7 @@
 Summary:	MD5
 Name:		perl-Crypt-PasswdMD5
 Version:	1.1
-Release:	0
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl

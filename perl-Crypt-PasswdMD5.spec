@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	PasswdMD5
-Summary:	Crypt::PasswdMD5 -- an interoperable MD5-based crypt() function
+Summary:	Crypt::PasswdMD5 Perl module - an interoperable MD5-based crypt() function
 Summary(pl):	Modu³ Perla Crypt::PasswdMD5 - funkcja crypt() oparta na MD5
 Name:		perl-Crypt-PasswdMD5
 Version:	1.3

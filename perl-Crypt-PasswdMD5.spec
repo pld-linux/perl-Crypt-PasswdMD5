@@ -4,12 +4,12 @@
 Summary:	Crypt::PasswdMD5 -- an interoperable MD5-based crypt() function
 Summary(pl):	Modu³ Perla Crypt::PasswdMD5 - funkcja crypt() oparta na MD5
 Name:		perl-Crypt-PasswdMD5
-Version:	1.2
-Release:	9
+Version:	1.3
+Release:	1
 License:	BEER-WARE (free)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	35966352a496fd2f30e3d08734bf13e4
+# Source0-md5:	368205b1be8c0d4f807afe25d6fbd1ad
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch

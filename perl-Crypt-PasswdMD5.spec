@@ -6,7 +6,8 @@ Summary(pl):	Modu³ Perla Crypt::PasswdMD5 - funkcja crypt() oparta na MD5
 Name:		perl-Crypt-PasswdMD5
 Version:	1.3
 Release:	1
-License:	BEER-WARE (free)
+# same as perl (original was BEER-WARE)
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	368205b1be8c0d4f807afe25d6fbd1ad

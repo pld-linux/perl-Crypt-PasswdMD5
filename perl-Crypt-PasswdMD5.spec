@@ -1,8 +1,9 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	MD5
+Summary:	Crypt-PasswdMD5 perl module
+Summary(pl):	Modu³ perla Crypt-PasswdMD5
 Name:		perl-Crypt-PasswdMD5
 Version:	1.2
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -14,7 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-perl-Crypt-PasswdMD5
+Crypt-PasswdMD5 perl module.
+
+%description -l pl
+Modu³ perla Crypt-PasswdMD5.
 
 %prep
 %setup -q -n Crypt-PasswdMD5-%{version}

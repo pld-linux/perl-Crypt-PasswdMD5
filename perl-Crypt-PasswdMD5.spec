@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	PasswdMD5
 Summary:	Crypt::PasswdMD5 Perl module - an interoperable MD5-based crypt() function
-Summary(pl):	Modu³ Perla Crypt::PasswdMD5 - funkcja crypt() oparta na MD5
+Summary(pl.UTF-8):   ModuÅ‚ Perla Crypt::PasswdMD5 - funkcja crypt() oparta na MD5
 Name:		perl-Crypt-PasswdMD5
 Version:	1.3
 Release:	1
@@ -26,10 +26,10 @@ rather new MD5-based crypt() function found in modern operating
 systems. apache_md5_crypt() provides a function compatible with
 Apache's .htpasswd files.
 
-%description -l pl
-Funkcja unix_md5_crypt() udostêpnia kompatybilny z crypt() interfejs
-do dosyæ nowej funkcji crypt() opartej na MD5, dostêpnej we
-wspó³czesnych systemach operacyjnych. Funkcja apache_md5_crypt() jest
+%description -l pl.UTF-8
+Funkcja unix_md5_crypt() udostÄ™pnia kompatybilny z crypt() interfejs
+do dosyÄ‡ nowej funkcji crypt() opartej na MD5, dostÄ™pnej we
+wspÃ³Å‚czesnych systemach operacyjnych. Funkcja apache_md5_crypt() jest
 kompatybilna z plikami .htpasswd Apache'a.
 
 %prep

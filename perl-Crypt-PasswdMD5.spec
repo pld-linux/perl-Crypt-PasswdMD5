@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	PasswdMD5
 Summary:	Crypt::PasswdMD5 Perl module - an interoperable MD5-based crypt() function
-Summary(pl.UTF-8):   Moduł Perla Crypt::PasswdMD5 - funkcja crypt() oparta na MD5
+Summary(pl.UTF-8):	Moduł Perla Crypt::PasswdMD5 - funkcja crypt() oparta na MD5
 Name:		perl-Crypt-PasswdMD5
 Version:	1.3
 Release:	1

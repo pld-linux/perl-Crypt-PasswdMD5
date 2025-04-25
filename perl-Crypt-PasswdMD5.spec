@@ -1,22 +1,23 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests	# unit tests
 
 %define		pdir	Crypt
 %define		pnam	PasswdMD5
 Summary:	Crypt::PasswdMD5 Perl module - an interoperable MD5-based crypt() function
 Summary(pl.UTF-8):	Moduł Perla Crypt::PasswdMD5 - funkcja crypt() oparta na MD5
 Name:		perl-Crypt-PasswdMD5
-Version:	1.3
-Release:	2
+Version:	1.42
+Release:	1
 # same as perl (original was BEER-WARE)
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	368205b1be8c0d4f807afe25d6fbd1ad
-URL:		http://search.cpan.org/dist/Crypt-PasswdMD5/
+Source0:	https://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tgz
+# Source0-md5:	3a24c20baccc04bb0623e40cc87b9d56
+URL:		https://metacpan.org/dist/Crypt-PasswdMD5
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -54,4 +55,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %{perl_vendorlib}/Crypt/PasswdMD5.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/Crypt::PasswdMD5.3pm*
